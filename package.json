@@ -1,10 +1,37 @@
 {
-  "name": "${PROJECT_NAME}",
+  "name": "loginForm",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "React Native Expo Login and Registration App",
+  "main": "node_modules/expo/AppEntry.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "eject": "expo eject"
+  },
+  "dependencies": {
+    "@expo/vector-icons": "^14.1.0",
+    "@react-navigation/native": "^6.1.6",
+    "@react-navigation/stack": "^6.3.16",
+    "axios": "^1.3.4",
+    "expo": "^53.0.10",
+    "expo-linear-gradient": "~14.1.5",
+    "expo-status-bar": "~2.2.3",
+    "formik": "^2.2.9",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-native": "^0.79.3",
+    "react-native-gesture-handler": "~2.24.0",
+    "react-native-paper": "^5.2.0",
+    "react-native-reanimated": "~3.17.4",
+    "react-native-safe-area-context": "^5.4.0",
+    "react-native-screens": "~4.11.1",
+    "react-native-vector-icons": "^9.2.0",
+    "yup": "^1.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
   },
   "private": true
 }
